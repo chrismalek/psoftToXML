@@ -4,6 +4,7 @@ class psoftToXML
    method FieldToXML(&ParentNode As XmlNode, &fieldIn As Field) Returns XmlNode;
    method RowToXML(&ParentNode As XmlNode, &rowIn As Row) Returns XmlNode;
    method psoftToXML();
+   property array of string fieldsToSkip;
 private
    
    instance string &psObjectTypeString;
@@ -11,7 +12,7 @@ end-class;
 
 method psoftToXML
    &psObjectTypeString = "PSOBJECTTYPE";
-   
+   %This.fieldsToSkip = CreateArrayRept("", 0);
 end-method;
 
 method FieldToXML
@@ -70,7 +71,10 @@ method RecordToXML
    &outNode.AddAttribute(%This.psObjectTypeString, "RECORD");
    
    For &i = 1 To &recordIn.FieldCount
-      &fieldNode = %This.FieldToXML(&outNode, &recordIn.GetField(&i));
+      
+      If %This.fieldsToSkip.Find(&recordIn.GetField(&i).Name) <= 0 Then
+         &fieldNode = %This.FieldToXML(&outNode, &recordIn.GetField(&i));
+      End-If;
    End-For;
    
    Return &outNode;

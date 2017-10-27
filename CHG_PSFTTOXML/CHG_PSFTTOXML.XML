@@ -3,12 +3,12 @@
   <instance class="PJM">
     <rowset name="PjmDefn" size="2832" count="1">
       <row>
-        <szLastUpdDttm>2017-10-27-17.14.07.192090</szLastUpdDttm>
+        <szLastUpdDttm>2017-10-27-17.16.07.593000</szLastUpdDttm>
         <szLastUpdOprId>PS</szLastUpdOprId>
         <szObjectOwnerID></szObjectOwnerID>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>56</lVersion>
+        <lVersion>58</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
         <szProjectName>CHG_PSFTTOXML</szProjectName>
@@ -16,8 +16,8 @@
         <szProjectDescr></szProjectDescr>
         <szSrcDBName>HR92U023</szSrcDBName>
         <szSrcOprId>PS</szSrcOprId>
-        <szSessionId>411e6952-bb3a-11e7-b94a-a3fe3b8d8d0e</szSessionId>
-        <szRunDtTm>2017-10-27-17.14.13.192118</szRunDtTm>
+        <szSessionId>88c501ac-bb3a-11e7-b94a-a3fe3b8d8d0e</szSessionId>
+        <szRunDtTm>2017-10-27-17.16.13.592927</szRunDtTm>
         <szTgtServerName></szTgtServerName>
         <szTgtDBName></szTgtDBName>
         <szTgtOprId></szTgtOprId>
@@ -34,27 +34,9 @@
         <szReleaseDttm></szReleaseDttm>
         <nDescrLongLen>0</nDescrLongLen>
         <hDescrLong>HANDLE</hDescrLong>
-        <nProjectCount>3</nProjectCount>
+        <nProjectCount>2</nProjectCount>
         <lpPit> POINTER
-          <rowset name="PjmPit" size="2568" count="3">
-            <row>
-              <eObjectType>57</eObjectType>
-              <szObjectValue_0>CHG_UTILITIES</szObjectValue_0>
-              <szObjectValue_1>CHG_UTILITIES</szObjectValue_1>
-              <szObjectValue_2>.</szObjectValue_2>
-              <szObjectValue_3></szObjectValue_3>
-              <eObjectID_0>104</eObjectID_0>
-              <eObjectID_1>116</eObjectID_1>
-              <eObjectID_2>117</eObjectID_2>
-              <eObjectID_3>0</eObjectID_3>
-              <bExecute>0</bExecute>
-              <eSourceStatus>0</eSourceStatus>
-              <eTargetStatus>0</eTargetStatus>
-              <eUpgradeAction>0</eUpgradeAction>
-              <bTakeAction>1</bTakeAction>
-              <bCopyDone>0</bCopyDone>
-              <eRowStatus>3</eRowStatus>
-            </row>
+          <rowset name="PjmPit" size="1712" count="2">
             <row>
               <eObjectType>57</eObjectType>
               <szObjectValue_0>CHG_XML</szObjectValue_0>
@@ -70,7 +52,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>0</bCopyDone>
+              <bCopyDone>1</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -88,7 +70,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>0</bCopyDone>
+              <bCopyDone>1</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
           </rowset>
@@ -386,37 +368,6 @@
         <lpInc>POINTER</lpInc>
         <nDepCount>0</nDepCount>
         <lpDep>POINTER</lpDep>
-        <nLangCount>0</nLangCount>
-        <hLang>HANDLE</hLang>
-      </row>
-    </rowset>
-  </instance>
-  <instance class="APM">
-    <rowset name="ApmDefn" size="968" count="1">
-      <row>
-        <szLastUpdDttm>2017-10-27-15.40.03.379240</szLastUpdDttm>
-        <szLastUpdOprId>PS</szLastUpdOprId>
-        <szObjectOwnerId></szObjectOwnerId>
-        <nUseCount>1</nUseCount>
-        <bUseUpdate>1</bUseUpdate>
-        <lVersion>3</lVersion>
-        <lSwapVersion>0</lSwapVersion>
-        <nSwapNum>0</nSwapNum>
-        <szPackageId>CHG_UTILITIES</szPackageId>
-        <szLanguageCd>ENG</szLanguageCd>
-        <szPackageRoot>CHG_UTILITIES</szPackageRoot>
-        <szQualifyPath>.</szQualifyPath>
-        <lPackageLevel>0</lPackageLevel>
-        <szPackageRef></szPackageRef>
-        <szDescr></szDescr>
-        <lDescrLongLen>0</lDescrLongLen>
-        <lpszDescrLong>POINTER</lpszDescrLong>
-        <eRenameObject>0</eRenameObject>
-        <szPrevPackageId></szPrevPackageId>
-        <ApmDefnList.lClassCount>0</ApmDefnList.lClassCount>
-        <ApmDefnList.hDefnClassList>HANDLE</ApmDefnList.hDefnClassList>
-        <ApmDefnList.lPackageCount>0</ApmDefnList.lPackageCount>
-        <ApmDefnList.hDefnPackageList>HANDLE</ApmDefnList.hDefnPackageList>
         <nLangCount>0</nLangCount>
         <hLang>HANDLE</hLang>
       </row>
