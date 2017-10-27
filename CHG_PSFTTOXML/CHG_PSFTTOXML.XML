@@ -1,0 +1,711 @@
+<?xml version='1.0'?>
+  <!--Warning : Don't edit this file -->
+  <instance class="PJM">
+    <rowset name="PjmDefn" size="2832" count="1">
+      <row>
+        <szLastUpdDttm>2017-10-27-15.42.35.379443</szLastUpdDttm>
+        <szLastUpdOprId>PS</szLastUpdOprId>
+        <szObjectOwnerID></szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>49</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szProjectName>CHG_PSFTTOXML</szProjectName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szProjectDescr></szProjectDescr>
+        <szSrcDBName>HR92U023</szSrcDBName>
+        <szSrcOprId>PS</szSrcOprId>
+        <szSessionId>02a4450c-bb2e-11e7-b94a-a3fe3b8d8d0e</szSessionId>
+        <szRunDtTm>2017-10-27-15.46.34.379153</szRunDtTm>
+        <szTgtServerName></szTgtServerName>
+        <szTgtDBName></szTgtDBName>
+        <szTgtOprId></szTgtOprId>
+        <fReportFilter>16232832</fReportFilter>
+        <eTargetOrientation>0</eTargetOrientation>
+        <eCompareType>1</eCompareType>
+        <fKeepTgt>31</fKeepTgt>
+        <nCommitLimit>50</nCommitLimit>
+        <szCompRelease></szCompRelease>
+        <szCompRelDttm></szCompRelDttm>
+        <bMaintenanceProject>0</bMaintenanceProject>
+        <bUseDbFieldNameAttrib>0</bUseDbFieldNameAttrib>
+        <szReleaseLabel></szReleaseLabel>
+        <szReleaseDttm></szReleaseDttm>
+        <nDescrLongLen>0</nDescrLongLen>
+        <hDescrLong>HANDLE</hDescrLong>
+        <nProjectCount>3</nProjectCount>
+        <lpPit> POINTER
+          <rowset name="PjmPit" size="2568" count="3">
+            <row>
+              <eObjectType>57</eObjectType>
+              <szObjectValue_0>CHG_UTILITIES</szObjectValue_0>
+              <szObjectValue_1>CHG_UTILITIES</szObjectValue_1>
+              <szObjectValue_2>.</szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>104</eObjectID_0>
+              <eObjectID_1>116</eObjectID_1>
+              <eObjectID_2>117</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>0</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>57</eObjectType>
+              <szObjectValue_0>CHG_XML</szObjectValue_0>
+              <szObjectValue_1>CHG_XML</szObjectValue_1>
+              <szObjectValue_2>.</szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>104</eObjectID_0>
+              <eObjectID_1>116</eObjectID_1>
+              <eObjectID_2>117</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>0</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>58</eObjectType>
+              <szObjectValue_0>CHG_XML</szObjectValue_0>
+              <szObjectValue_1>psoftToXML</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>104</eObjectID_0>
+              <eObjectID_1>107</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>0</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+          </rowset>
+        </lpPit>
+        <nAdsBindingCount>0</nAdsBindingCount>
+        <pPrjAdsBinding>POINTER</pPrjAdsBinding>
+        <bCopyAllSec>1</bCopyAllSec>
+        <bCompAllSec>1</bCompAllSec>
+        <nSecCount>70</nSecCount>
+        <lpSec> POINTER
+          <rowset name="PjmSec" size="1400" count="70">
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>COMMON</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ARA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>BUL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CFR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CRO</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CZE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>DAN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>DUT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ENG</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ESP</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>FIN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>FRA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>GER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>GRK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>HEB</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>HUN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ITA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>JPN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>KOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>MAY</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>NOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>POL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>POR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ROM</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>RUS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SLK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SLV</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SVE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>THA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>TUR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>UKE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>VIE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ZHS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ZHT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>COMMON</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ARA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>BUL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CFR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CRO</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CZE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>DAN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>DUT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ENG</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ESP</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>FIN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>FRA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>GER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>GRK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>HEB</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>HUN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ITA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>JPN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>KOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>MAY</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>NOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>POL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>POR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ROM</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>RUS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SLK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SLV</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SVE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>THA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>TUR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>UKE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>VIE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ZHS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ZHT</szSectionName>
+            </row>
+          </rowset>
+        </lpSec>
+        <nIncCount>0</nIncCount>
+        <lpInc>POINTER</lpInc>
+        <nDepCount>0</nDepCount>
+        <lpDep>POINTER</lpDep>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="APM">
+    <rowset name="ApmDefn" size="968" count="1">
+      <row>
+        <szLastUpdDttm>2017-10-27-15.40.03.379240</szLastUpdDttm>
+        <szLastUpdOprId>PS</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>3</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szPackageId>CHG_UTILITIES</szPackageId>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szPackageRoot>CHG_UTILITIES</szPackageRoot>
+        <szQualifyPath>.</szQualifyPath>
+        <lPackageLevel>0</lPackageLevel>
+        <szPackageRef></szPackageRef>
+        <szDescr></szDescr>
+        <lDescrLongLen>0</lDescrLongLen>
+        <lpszDescrLong>POINTER</lpszDescrLong>
+        <eRenameObject>0</eRenameObject>
+        <szPrevPackageId></szPrevPackageId>
+        <ApmDefnList.lClassCount>0</ApmDefnList.lClassCount>
+        <ApmDefnList.hDefnClassList>HANDLE</ApmDefnList.hDefnClassList>
+        <ApmDefnList.lPackageCount>0</ApmDefnList.lPackageCount>
+        <ApmDefnList.hDefnPackageList>HANDLE</ApmDefnList.hDefnPackageList>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="APM">
+    <rowset name="ApmDefn" size="968" count="1">
+      <row>
+        <szLastUpdDttm>2017-10-27-15.40.46.379441</szLastUpdDttm>
+        <szLastUpdOprId>PS</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>5</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szPackageId>CHG_XML</szPackageId>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szPackageRoot>CHG_XML</szPackageRoot>
+        <szQualifyPath>.</szQualifyPath>
+        <lPackageLevel>0</lPackageLevel>
+        <szPackageRef></szPackageRef>
+        <szDescr></szDescr>
+        <lDescrLongLen>0</lDescrLongLen>
+        <lpszDescrLong>POINTER</lpszDescrLong>
+        <eRenameObject>0</eRenameObject>
+        <szPrevPackageId></szPrevPackageId>
+        <ApmDefnList.lClassCount>1</ApmDefnList.lClassCount>
+        <ApmDefnList.hDefnClassList> HANDLE
+          <rowset name="ApmClassList" size="464" count="1">
+            <row>
+              <ApmClassKey.szClassId>psoftToXML</ApmClassKey.szClassId>
+              <ApmClassKey.szPackageRoot>CHG_XML</ApmClassKey.szPackageRoot>
+              <ApmClassKey.szQualifyPath>:</ApmClassKey.szQualifyPath>
+              <szClassRef></szClassRef>
+              <lClassLevel>1</lClassLevel>
+              <lClassCount>1</lClassCount>
+              <hClassDefn> HANDLE
+                <rowset name="ApmClassDefn" size="576" count="1">
+                  <row>
+                    <szClassId>psoftToXML</szClassId>
+                    <szClassRef></szClassRef>
+                    <szDescr></szDescr>
+                    <eRenameObject>0</eRenameObject>
+                    <szPrevClassId></szPrevClassId>
+                  </row>
+                </rowset>
+              </hClassDefn>
+            </row>
+          </rowset>
+        </ApmDefnList.hDefnClassList>
+        <ApmDefnList.lPackageCount>0</ApmDefnList.lPackageCount>
+        <ApmDefnList.hDefnPackageList>HANDLE</ApmDefnList.hDefnPackageList>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="PCM">
+    <rowset name="PcmProg" size="2240" count="1">
+      <row>
+        <szLastUpdDttm>2017-10-27-15.40.55.378958</szLastUpdDttm>
+        <szLastUpdOprId>PS</szLastUpdOprId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>94018</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <eObjectID_0>104</eObjectID_0>
+        <szObjectValue_0>CHG_XML</szObjectValue_0>
+        <eObjectID_1>107</eObjectID_1>
+        <szObjectValue_1>psoftToXML</szObjectValue_1>
+        <eObjectID_2>12</eObjectID_2>
+        <szObjectValue_2>OnExecute</szObjectValue_2>
+        <eObjectID_3>0</eObjectID_3>
+        <szObjectValue_3></szObjectValue_3>
+        <eObjectID_4>0</eObjectID_4>
+        <szObjectValue_4></szObjectValue_4>
+        <eObjectID_5>0</eObjectID_5>
+        <szObjectValue_5></szObjectValue_5>
+        <eObjectID_6>0</eObjectID_6>
+        <szObjectValue_6></szObjectValue_6>
+        <nNameCount>7</nNameCount>
+        <lpProgSource> POINTER
+          <rowset name="PcmProgSource" size="64" count="1">
+            <row>
+              <lSourceLen>4435</lSourceLen>
+              <lpSource>custom field</lpSource>
+              <lEntryNamesLen>186</lEntryNamesLen>
+              <nEntry>7</nEntry>
+              <lpEntryTab>custom field</lpEntryTab>
+              <nParams>13</nParams>
+              <lpParams>custom field</lpParams>
+              <nPCVersion>133</nPCVersion>
+            </row>
+          </rowset>
+        </lpProgSource>
+        <nProgSource>1</nProgSource>
+        <lpPnt> POINTER
+          <rowset name="PcmPnt" size="3738" count="7">
+            <row>
+              <szRecName></szRecName>
+              <szFieldName></szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>XMLNODE</szFieldName>
+              <szPackageRoot>XmlNode</szPackageRoot>
+              <szQualifyPath>XmlNode</szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>ROWSET</szFieldName>
+              <szPackageRoot>Rowset</szPackageRoot>
+              <szQualifyPath>Rowset</szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>RECORD</szFieldName>
+              <szPackageRoot>Record</szPackageRoot>
+              <szQualifyPath>Record</szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>FIELD</szFieldName>
+              <szPackageRoot>Field</szPackageRoot>
+              <szQualifyPath>Field</szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>ROW</szFieldName>
+              <szPackageRoot>Row</szPackageRoot>
+              <szQualifyPath>Row</szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>PSOFTTOXML</szFieldName>
+              <szPackageRoot>CHG_XML</szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+              <szAppClassMethod>FIELDTOXML</szAppClassMethod>
+            </row>
+          </rowset>
+        </lpPnt>
+        <lpProgCode>custom field</lpProgCode>
+        <nProgCode>0</nProgCode>
+        <eRunLocation>0</eRunLocation>
+        <szLicenseCode></szLicenseCode>
+        <lpHashTable>POINTER</lpHashTable>
+        <eProgFlag>0</eProgFlag>
+        <szExtendsClass></szExtendsClass>
+        <szCompiledRelease></szCompiledRelease>
+      </row>
+    </rowset>
+    <peoplecode_text>class psoftToXML
+   method RowsetToXML(&amp;parentNode As XmlNode, &amp;rowSetIn As Rowset) Returns XmlNode;
+   method RecordToXML(&amp;parentNode As XmlNode, &amp;recordIn As Record) Returns XmlNode;
+   method FieldToXML(&amp;ParentNode As XmlNode, &amp;fieldIn As Field) Returns XmlNode;
+   method RowToXML(&amp;ParentNode As XmlNode, &amp;rowIn As Row) Returns XmlNode;
+   method psoftToXML();
+private
+   
+   instance string &amp;psObjectTypeString;
+end-class;
+
+method psoftToXML
+   &amp;psObjectTypeString = &quot;PSOBJECTTYPE&quot;;
+   
+end-method;
+
+method FieldToXML
+   /+ &amp;ParentNode as XmlNode, +/
+   /+ &amp;fieldIn as Field +/
+   /+ Returns XmlNode +/
+   Local XmlNode &amp;outNode;
+   
+   Local XmlNode &amp;fldNode, &amp;tempNode;
+   
+   &amp;fldNode = &amp;ParentNode.AddElement(&amp;fieldIn.Name);
+   
+   &amp;fldNode.AddAttribute(&quot;PSFIELDTYPE&quot;, &amp;fieldIn.Type);
+   &amp;fldNode.AddAttribute(%This.psObjectTypeString, &quot;FIELD&quot;);
+   
+   If &amp;fieldIn.IsEditXlat Then
+      &amp;fldNode.AddAttribute(&quot;LongTranslateValue&quot;, &amp;fieldIn.LongTranslateValue);
+   End-If;
+   
+   Evaluate &amp;fieldIn.Type
+   When = &quot;LONGCHAR&quot;
+   When = &quot;IMAGE&quot;
+   When = &quot;IMAGEREFERENCE&quot;
+      If All(&amp;fieldIn.Value) Then
+         
+         &amp;tempNode = &amp;fldNode.AddCDataSection(&amp;fieldIn.Value);
+      End-If;
+      Break;
+      
+   When = &quot;NUMBER&quot;;
+      &amp;tempNode = &amp;fldNode.AddText(&amp;fieldIn.Value);
+      Break;
+   When-Other
+      If All(&amp;fieldIn.Value) Then
+         &amp;tempNode = &amp;fldNode.AddText(&amp;fieldIn.Value);
+      End-If;
+      
+      Break;
+   End-Evaluate;
+   
+   Return &amp;outNode;
+end-method;
+
+
+method RecordToXML
+   /+ &amp;parentNode as XmlNode, +/
+   /+ &amp;recordIn as Record +/
+   /+ Returns XmlNode +/
+   
+   Local XmlNode &amp;outNode, &amp;fieldNode;
+   
+   Local integer &amp;i;
+   
+   &amp;outNode = &amp;parentNode.AddElement(&amp;recordIn.Name);
+   
+   &amp;outNode.AddAttribute(%This.psObjectTypeString, &quot;RECORD&quot;);
+   
+   For &amp;i = 1 To &amp;recordIn.FieldCount
+      &amp;fieldNode = %This.FieldToXML(&amp;outNode, &amp;recordIn.GetField(&amp;i));
+   End-For;
+   
+   Return &amp;outNode;
+   
+   
+end-method;
+
+
+method RowToXML
+   /+ &amp;ParentNode as XmlNode, +/
+   /+ &amp;rowIn as Row +/
+   /+ Returns XmlNode +/
+   
+   Local XmlNode &amp;outNode, &amp;recNode;
+   
+   Local integer &amp;i;
+   
+   &amp;outNode = &amp;ParentNode.AddElement(&quot;ROW&quot;);
+   &amp;outNode.AddAttribute(&amp;psObjectTypeString, &quot;ROW&quot;);
+   &amp;outNode.AddAttribute(&quot;RowNumber&quot;, String(&amp;rowIn.RowNumber));
+   
+   For &amp;i = 1 To &amp;rowIn.RecordCount
+      &amp;recNode = %This.RecordToXML(&amp;outNode, &amp;rowIn.GetRecord(&amp;i));
+   End-For;
+   
+   Local XmlNode &amp;rsNode;
+   For &amp;i = 1 To &amp;rowIn.ChildCount
+      &amp;rsNode = %This.RowsetToXML(&amp;outNode, &amp;rowIn.GetRowset(&amp;i));
+      
+   End-For;
+   
+   Return &amp;outNode;
+   
+   
+end-method;
+
+
+method RowsetToXML
+   /+ &amp;parentNode as XmlNode, +/
+   /+ &amp;rowSetIn as Rowset +/
+   /+ Returns XmlNode +/
+   
+   Local XmlNode &amp;outNode, &amp;rowNode;
+   
+   Local integer &amp;i;
+   &amp;outNode = &amp;parentNode.AddElement(&amp;rowSetIn.DBRecordName);
+   &amp;outNode.AddAttribute(&amp;psObjectTypeString, &quot;ROWSET&quot;);
+   
+   For &amp;i = 1 To &amp;rowSetIn.ActiveRowCount
+      &amp;rowNode = %This.RowToXML(&amp;outNode, &amp;rowSetIn.GetRow(&amp;i));
+   End-For;
+   Return &amp;outNode;
+   
+end-method;
+
+</peoplecode_text>
+    <peoplecode_blob>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</peoplecode_blob>
+  </instance>
